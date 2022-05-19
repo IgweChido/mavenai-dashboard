@@ -1,9 +1,9 @@
 import React from 'react'
 
-import user from '../Images/user.png'
-import user1 from '../Images/user1.png'
-import user2 from '../Images/user2.png'
-import user3 from '../Images/user3.png'
+import user from '../Images/userr.svg'
+import user1 from '../Images/user11.svg'
+import user2 from '../Images/user21.svg'
+import user3 from '../Images/user31.svg'
 import Team from './Team'
 
 function TeamMembers() {

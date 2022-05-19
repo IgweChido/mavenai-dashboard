@@ -1,9 +1,9 @@
 import React, {useContext} from 'react'
 import {Context }from './Store'
 import {Ucontext }from './UserContext'
-import userb from '../Images/userbig.png'
-import users from '../Images/usersmall.png'
-import cross from '../Images/cross.png'
+import userb from '../Images/userbig1.svg'
+import users from '../Images/usersmall1.svg'
+import cross from '../Images/cross1.svg'
 
 function Header() {
 

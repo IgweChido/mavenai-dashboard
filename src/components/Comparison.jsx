@@ -1,9 +1,9 @@
 import React from 'react'
 import States from './States'
-import flag from '../Images/flag.png'
-import flag1 from '../Images/flag1.png'
-import flag2 from '../Images/flag2.png'
-import flag3 from '../Images/flag3.png'
+import flag from '../Images/flagg.svg'
+import flag1 from '../Images/flag11.svg'
+import flag2 from '../Images/flag21.svg'
+import flag3 from '../Images/flag31.svg'
 
 function Comparison() {
  

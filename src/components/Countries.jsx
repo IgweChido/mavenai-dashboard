@@ -1,10 +1,10 @@
 import React from 'react'
 import Country from './Country'
-import tri from '../Images/triangle.png'
-import chart from '../Images/chart.png'
-import tri1 from '../Images/triangle1.png'
-import chart1 from '../Images/chart1.png'
-import chart2 from '../Images/chart2.png'
+import tri from '../Images/trianglee.svg'
+import chart from '../Images/chartt.svg'
+import tri1 from '../Images/triangle11.svg'
+import chart1 from '../Images/chart11.svg'
+import chart2 from '../Images/chart21.svg'
 
 
 function Countries() {
