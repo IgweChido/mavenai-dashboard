@@ -62,30 +62,30 @@ function MainPage() {
 
               <div class=''>
                     {/* header */}
-                  <div class=' mx-3 me-xxl-5'>
+                  <div class=' mx-3 ms-xxl-5 me-xxl-5'>
                     <Header/>
                   </div>
 
 
                   {/* balances */}
-                  <div class=' ms-3 mt-4'style={app}>
+                  <div class=' ms-3 ms-xxl-5 mt-4'style={app}>
                     <Balances/>
                   </div>
 
                   {/* countries */}
-                  <div class=' ms-3 mt-4'style={app}>
+                  <div class=' ms-3 ms-xxl-5 mt-4'style={app}>
                     <Countries/>
                   </div>
 
                   {/* flex area */}
                   <div class=' d-lg-flex'style={fleex} >
                       {/* Team members */}
-                        <div class=' mx-3 mt-4 col col-lg-5'>
+                        <div class=' mx-3 ms-xxl-5 mt-4 col col-lg-5'>
                           <TeamMembers/>
                         </div>
 
                       {/* Compare states */}
-                        <div class=' mx-3 mt-4 col col-lg-5'>
+                        <div class=' mx-3 ms-xxl-5 mt-4 col col-lg-5'>
                           <Comparison/>
                         </div>
                   </div>
