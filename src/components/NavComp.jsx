@@ -9,6 +9,7 @@ function NavComp(props) {
 
     const dashImg={
         width: '35%',
+        maxWidth:'64px'
         
     }
 

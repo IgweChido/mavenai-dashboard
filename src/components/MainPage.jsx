@@ -20,12 +20,12 @@ function MainPage() {
 
   const app={
     overflowX: 'auto',
-    overflowY: 'hidden',
+  
     // scrollbarWidth: 'none'
   }
 
   const fleex ={
-    maxWidth:'1261px',
+    maxWidth:'1220px',
   }
 
   const blure ={
@@ -60,7 +60,7 @@ function MainPage() {
         {/* col2 */}
           <div  class='  position relative pb-5 float-lg-end h-100   col col-12 col-lg-10 ms-lg-16' >
 
-              <div class=''>
+              <div class='' > 
                     {/* header */}
                   <div class=' mx-3 ms-xxl-5 me-xxl-5'>
                     <Header/>
