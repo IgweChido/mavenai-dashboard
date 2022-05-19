@@ -1,0 +1,83 @@
+
+
+$success: #6DC91D;
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  7px: 7px,
+  120: 120px,
+  50: 50px,
+  30: 30px,
+  70: 70px,
+  83: 92px,
+  80:80px,
+  60: 60px,
+  10: 10%,
+  16: 16.67%,
+  25:25%,
+  45: 45%,
+
+) !default;
+
+$secondary: #a5abc1;
+$success: #00E38C;
+$info: #e6ecfc;
+$danger: #FF4B75;
+$dark:#e3e4eb;
+ 
+$font-sizes: (
+  30px: 30px,
+  29px: 29px,
+  11px: 11px,
+  12px: 12px,
+  28px: 28px,
+  24px: 24px,
+  35px: 35px,
+  48px: 48px,
+  16px: 16px,
+  18px: 18px,
+) !default;
+
+@import "../../node_modules/bootstrap/scss/_functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/_utilities";
+
+
+
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "width": (
+      property: width,
+      class: w,
+      values: (
+       550: 550px,
+       15: 15%,
+       12: 12%,
+       85: 85%,
+       88: 88%,
+        
+      )
+    )
+  )
+);
+
+
+
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+::-webkit-scrollbar { 
+  display: none; 
+} 
+
+
+
+
