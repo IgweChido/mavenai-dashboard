@@ -16,7 +16,7 @@ function Navigation() {
         }
     
   return (
-    <div class='  w-100 ' style={navigate}>
+    <div class='  w-100  ' style={navigate}>
 
        <NavComp name='Dashboard' image={dash} shade='shadow' color='' />
        <NavComp name='Analytics' image={anal} color='text-secondary'/>

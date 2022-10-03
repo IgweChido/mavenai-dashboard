@@ -49,7 +49,7 @@ function MainPage() {
       <div class='row   '>
           
             {/* col 1 */}
-            <div class='bg-white h-100 d-none d-lg-block position-fixed  float-lg-start  col col-0 col-lg-2 shadow'>
+            <div class='bg-white vh-100  d-none d-lg-block position-fixed  float-lg-start  col col-0 col-lg-2 shadow'>
             
               <Navigation/>
           
@@ -96,7 +96,7 @@ function MainPage() {
 
 
             {state.openNav && 
-              <div class=' position-fixed top-0 start-0 h-100 w-50 bg-white d-lg-none'>
+              <div class=' position-fixed top-0 start-0 vh-100 w-50 bg-white d-lg-none'>
               
                   <Navigation/>
               </div>
